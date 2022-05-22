@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:id="@+id/coordinatorLayout">
+
+        <ImageView
+            android:id="@+id/photo_image_view"
+            android:layout_width="219dp"
+            android:layout_height="172dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="center"
+            android:src="@drawable/c" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cars"
+            android:layout_gravity="center_horizontal"
+            android:textSize="36sp"
+            android:textStyle="italic"
+            android:letterSpacing="0.1"/>
+
+        <EditText
+            android:id="@+id/ed_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:hint="email"
+            android:padding="8dp"
+            android:textSize="20sp"
+            android:background="#F8F1F1"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:drawablePadding="20dp"/>
+
+        <EditText
+            android:id="@+id/ed_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginRight="20dp"
+            android:hint="password"
+            android:padding="8dp"
+            android:background="#F8F1F1"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/ic_baseline_info_24"
+            android:drawablePadding="20dp"/>
+
+        <Button
+            android:id="@+id/Login"
+            android:layout_width="115dp"
+            android:layout_height="55dp"
+            android:text="SIGN IN"
+            android:backgroundTint="#3C3B3B"
+            android:layout_marginTop="30dp"
+            android:textAlignment="textEnd"
+            android:textSize="18sp"
+            android:layout_gravity="end"
+            android:layout_marginRight="40dp"/>
+
+
+        <Button
+            android:id="@+id/sign_up"
+            android:layout_width="115dp"
+            android:layout_height="55dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="40dp"
+            android:backgroundTint="#423F3F"
+            android:text="SIGn UP"
+            android:textAlignment="textEnd"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_google_sign_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/gf"
+            android:text="Sign in with Google"
+            android:textAllCaps="false"
+            android:drawablePadding="7dp"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_horizontal"
+
+            />
+    </LinearLayout>
+
+</ScrollView>

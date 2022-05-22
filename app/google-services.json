@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1041829388999",
+    "project_id": "pak-motors-8432b",
+    "storage_bucket": "pak-motors-8432b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041829388999:android:71c2c018a0a1dc751914e2",
+        "android_client_info": {
+          "package_name": "com.example.shopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041829388999-ecjqd76koshln8qdquj049ea8devufof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTyOCtGRmdUP9klM_kaA1AN1K2UqomfiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041829388999-ecjqd76koshln8qdquj049ea8devufof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
